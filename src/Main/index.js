@@ -6,14 +6,19 @@ export default class Main extends Component {
   constructor() {
     super();
     this.state = { users: [] };
+    this.loadData = this.loadData.bind(this);
   }
 
-  async componentDidMount() {
+  componentDidMount() {
+    this.loadData();
+  }
+
+  async loadData() {
     try {
       const response = await api.get();
       this.setState({ users: response.data });
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   }
 
@@ -24,8 +29,8 @@ export default class Main extends Component {
         <ul>
           {users.map((user) => (
             <List key={user.id}>
-              <Avatar src={user.avatar} alt="sss" />
-              <Name>{user.name}</Name>
+              <Avatar src={user.avatar} alt="Avatar" />
+              <Name data-testid="row"> {user.name}</Name>
               <Position>{user.position}</Position>
             </List>
           ))}
