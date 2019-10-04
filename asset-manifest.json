@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/appwoozaweb/static/js/main.8fffd2ff.chunk.js",
+    "main.js.map": "/appwoozaweb/static/js/main.8fffd2ff.chunk.js.map",
+    "runtime-main.js": "/appwoozaweb/static/js/runtime-main.9a7f5a1d.js",
+    "runtime-main.js.map": "/appwoozaweb/static/js/runtime-main.9a7f5a1d.js.map",
+    "static/js/2.ec6a9d54.chunk.js": "/appwoozaweb/static/js/2.ec6a9d54.chunk.js",
+    "static/js/2.ec6a9d54.chunk.js.map": "/appwoozaweb/static/js/2.ec6a9d54.chunk.js.map",
+    "index.html": "/appwoozaweb/index.html",
+    "precache-manifest.1fa936e4d7546867897e859a3434cb7a.js": "/appwoozaweb/precache-manifest.1fa936e4d7546867897e859a3434cb7a.js",
+    "service-worker.js": "/appwoozaweb/service-worker.js"
+  }
+}
