@@ -1,5 +1,11 @@
 # PROJECT WOOZA MOBILE
 
+## Description
+
+This app was developed following requirements for the document bellow.
+
+https://github.com/marcosafmartins92/provawoozav/blob/master/README.md
+
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.

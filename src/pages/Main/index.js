@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Avatar, Container, List, Name, Position } from './styles';
-import api from '../../services/api';
+import Api from '../../services/Api';
 
 export default class Main extends Component {
   constructor() {
@@ -15,7 +15,7 @@ export default class Main extends Component {
 
   async loadData() {
     try {
-      const response = await api.get();
+      const response = await Api.get();
       this.setState({ users: response.data });
     } catch (error) {
       // console.log(error);

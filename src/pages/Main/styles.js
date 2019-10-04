@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const List = styled.div`
-  padding: 20px 20px;
+  padding: 30px 10px 10px 10px;
   background: #fff;
   border-radius: 10px;
   width: 225px;

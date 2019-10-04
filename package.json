@@ -2,15 +2,19 @@
   "name": "appwoozaweb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://aribeirorj.github.io/appwoozaweb",
   "dependencies": {
     "axios": "^0.19.0",
     "eslint-import-resolver-webpack": "^0.11.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2",
     "styled-components": "^4.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
