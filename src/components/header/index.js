@@ -7,7 +7,6 @@ export default function Header1() {
     <Container>
       <Content>
         <nav>
-          {' '}
           <img src={logo} alt="logo" />
         </nav>
       </Content>

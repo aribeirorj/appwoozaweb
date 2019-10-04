@@ -1,25 +1,21 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  display: flex;
   max-width: 700px;
-  margin: 50px auto;
-  padding: 10px;
-
-  ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    -webkit-column-gap: 40px;
-    grid-row-gap: 20px;
-    margin-top: 30px;
-    list-style: none;
-  }
+  margin: 100px auto;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
 `;
 
 export const List = styled.div`
-  padding: 20px;
+  padding: 20px 20px;
   background: #fff;
-  align-items: center;
   border-radius: 10px;
+  width: 225px;
+  height: 200px;
+  margin: 3px;
 `;
 
 export const Avatar = styled.img`
@@ -32,12 +28,14 @@ export const Avatar = styled.img`
 `;
 
 export const Name = styled.div`
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 20px;
   padding: 10px;
 `;
 
 export const Position = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
 `;

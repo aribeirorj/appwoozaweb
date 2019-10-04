@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Avatar, Container, List, Name, Position } from './styles';
-import api from '../services/api';
+import api from '../../services/api';
 
 export default class Main extends Component {
   constructor() {
@@ -26,15 +26,13 @@ export default class Main extends Component {
     const { users } = this.state;
     return (
       <Container>
-        <ul>
-          {users.map((user) => (
-            <List key={user.id}>
-              <Avatar src={user.avatar} alt="Avatar" />
-              <Name data-testid="row"> {user.name}</Name>
-              <Position>{user.position}</Position>
-            </List>
-          ))}
-        </ul>
+        {users.map((user) => (
+          <List key={user.id}>
+            <Avatar src={user.avatar} alt="Avatar" />
+            <Name data-testid="row"> {user.name}</Name>
+            <Position>{user.position}</Position>
+          </List>
+        ))}
       </Container>
     );
   }
