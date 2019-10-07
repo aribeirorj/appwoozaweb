@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e036d99f340955b23d908129a1c5ae6",
+    "revision": "2241c8cd7ac9a96709f8593a5489d792",
     "url": "/appwoozaweb/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appwoozaweb/static/js/2.ec6a9d54.chunk.js"
   },
   {
-    "revision": "67a0c6e9df69fc89e9c1",
-    "url": "/appwoozaweb/static/js/main.8fffd2ff.chunk.js"
+    "revision": "b0d63afa89a188b06881",
+    "url": "/appwoozaweb/static/js/main.cc79f100.chunk.js"
   },
   {
     "revision": "532efd036fbb04bd0ae5",
