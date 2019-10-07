@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { device } from './device';
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -16,6 +17,14 @@ const GlobalStyle = createGlobalStyle`
     background:#3B3B43;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif
+  }
+
+  @media ${device.laptop} {
+    max-width: 800px;
+  }
+
+  @media ${device.desktop} {
+    max-width: 1400px;
   }
 
  `;
